@@ -5,7 +5,7 @@ import Link from "next/link"
 export const Header = () => {
 
     const navBar = [
-        { nome: "Início", href: "/inicio" },
+        { nome: "Início", href: "/" },
         { nome: "Destinos", href: "/destinos" },
         { nome: "Tripulação", href: "/tripulação" },
         { nome: "Tecnologias", href: "/tecnologias" },
