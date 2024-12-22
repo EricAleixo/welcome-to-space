@@ -9,7 +9,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        fundoHomeDesktop: "url('/assets/home/background-home-desktop.jpg')"
+        fundoHomeDesktop: "url('/assets/home/background-home-desktop.jpg')",
+        fundoDestinosDesktop: "url('/assets/destination/background-destination-desktop.jpg')"
       }
     },
   },
