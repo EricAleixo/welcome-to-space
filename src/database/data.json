@@ -1,108 +1,108 @@
 {
-    "destinations": [
-      {
-        "name": "Moon",
-        "images": {
-          "png": "./assets/destination/image-moon.png",
-          "webp": "./assets/destination/image-moon.webp"
-        },
-        "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
-        "distance": "384,400 km",
-        "travel": "3 days"
+  "destinations": [
+    {
+      "name": "Lua",
+      "images": {
+        "png": "/assets/destination/image-moon.png",
+        "webp": "/assets/destination/image-moon.webp"
       },
-      {
-        "name": "Mars",
-        "images": {
-          "png": "./assets/destination/image-mars.png",
-          "webp": "./assets/destination/image-mars.webp"
-        },
-        "description": "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
-        "distance": "225 mil. km",
-        "travel": "9 months"
+      "description": "Veja nosso planeta como você nunca viu antes. Uma viagem perfeita para relaxar, recuperar a perspectiva e voltar renovado. Enquanto estiver lá, aproveite para conhecer a história visitando os locais de pouso da Luna 2 e Apollo 11.",
+      "distance": "384.400 km",
+      "travel": "3 dias"
+    },
+    {
+      "name": "Marte",
+      "images": {
+        "png": "/assets/destination/image-mars.png",
+        "webp": "/assets/destination/image-mars.webp"
       },
-      {
-        "name": "Europa",
-        "images": {
-          "png": "./assets/destination/image-europa.png",
-          "webp": "./assets/destination/image-europa.webp"
-        },
-        "description": "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
-        "distance": "628 mil. km",
-        "travel": "3 years"
+      "description": "Não se esqueça de levar suas botas de caminhada. Você vai precisar delas para enfrentar o Olympus Mons, a montanha planetária mais alta do nosso sistema solar. É duas vezes e meia maior que o Everest!",
+      "distance": "225 milhões de km",
+      "travel": "9 meses"
+    },
+    {
+      "name": "Europa",
+      "images": {
+        "png": "/assets/destination/image-europa.png",
+        "webp": "/assets/destination/image-europa.webp"
       },
-      {
-        "name": "Titan",
-        "images": {
-          "png": "./assets/destination/image-titan.png",
-          "webp": "./assets/destination/image-titan.webp"
-        },
-        "description": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
-        "distance": "1.6 bil. km",
-        "travel": "7 years"
-      }
-    ],
-    "crew": [
-      {
-        "name": "Douglas Hurley",
-        "images": {
-          "png": "./assets/crew/image-douglas-hurley.png",
-          "webp": "./assets/crew/image-douglas-hurley.webp"
-        },
-        "role": "Commander",
-        "bio": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."
+      "description": "A menor das quatro luas galileanas que orbitam Júpiter, Europa é o sonho de um amante do inverno. Com uma superfície congelada, é perfeita para patinação no gelo, curling, hóquei ou relaxar em sua aconchegante cabana de inverno.",
+      "distance": "628 milhões de km",
+      "travel": "3 anos"
+    },
+    {
+      "name": "Titã",
+      "images": {
+        "png": "/assets/destination/image-titan.png",
+        "webp": "/assets/destination/image-titan.webp"
       },
-      {
-        "name": "Mark Shuttleworth",
-        "images": {
-          "png": "./assets/crew/image-mark-shuttleworth.png",
-          "webp": "./assets/crew/image-mark-shuttleworth.webp"
-        },
-        "role": "Mission Specialist",
-        "bio": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."
+      "description": "A única lua conhecida por ter uma atmosfera densa além da Terra, Titã é um lar longe de casa (apenas algumas centenas de graus mais fria!). Como bônus, você terá vistas impressionantes dos anéis de Saturno.",
+      "distance": "1,6 bilhão de km",
+      "travel": "7 anos"
+    }
+  ],
+  "crew": [
+    {
+      "name": "Douglas Hurley",
+      "images": {
+        "png": "/assets/crew/image-douglas-hurley.png",
+        "webp": "/assets/crew/image-douglas-hurley.webp"
       },
-      {
-        "name": "Victor Glover",
-        "images": {
-          "png": "./assets/crew/image-victor-glover.png",
-          "webp": "./assets/crew/image-victor-glover.webp"
-        },
-        "role": "Pilot",
-        "bio": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."
+      "role": "Comandante",
+      "bio": "Douglas Gerald Hurley é um engenheiro americano, ex-piloto da Marinha e ex-astronauta da NASA. Ele lançou-se ao espaço pela terceira vez como comandante da Crew Dragon Demo-2."
+    },
+    {
+      "name": "Mark Shuttleworth",
+      "images": {
+        "png": "/assets/crew/image-mark-shuttleworth.png",
+        "webp": "/assets/crew/image-mark-shuttleworth.webp"
       },
-      {
-        "name": "Anousheh Ansari",
-        "images": {
-          "png": "./assets/crew/image-anousheh-ansari.png",
-          "webp": "./assets/crew/image-anousheh-ansari.webp"
-        },
-        "role": "Flight Engineer",
-        "bio": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
-      }
-    ],
-    "technology": [
-      {
-        "name": "Launch vehicle",
-        "images": {
-          "portrait": "./assets/technology/image-launch-vehicle-portrait.jpg",
-          "landscape": "./assets/technology/image-launch-vehicle-landscape.jpg"
-        },
-        "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
+      "role": "Especialista de Missão",
+      "bio": "Mark Richard Shuttleworth é o fundador e CEO da Canonical, a empresa por trás do sistema operacional baseado em Linux Ubuntu. Shuttleworth foi o primeiro sul-africano a viajar ao espaço como turista espacial."
+    },
+    {
+      "name": "Victor Glover",
+      "images": {
+        "png": "/assets/crew/image-victor-glover.png",
+        "webp": "/assets/crew/image-victor-glover.webp"
       },
-      {
-        "name": "Spaceport",
-        "images": {
-          "portrait": "./assets/technology/image-spaceport-portrait.jpg",
-          "landscape": "./assets/technology/image-spaceport-landscape.jpg"
-        },
-        "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
+      "role": "Piloto",
+      "bio": "Piloto no primeiro voo operacional da SpaceX Crew Dragon para a Estação Espacial Internacional. Glover é comandante da Marinha dos EUA, onde pilota um F/A-18. Ele foi membro da Expedição 64 e atuou como engenheiro de voo de sistemas da estação."
+    },
+    {
+      "name": "Anousheh Ansari",
+      "images": {
+        "png": "/assets/crew/image-anousheh-ansari.png",
+        "webp": "/assets/crew/image-anousheh-ansari.webp"
       },
-      {
-        "name": "Space capsule",
-        "images": {
-          "portrait": "./assets/technology/image-space-capsule-portrait.jpg",
-          "landscape": "./assets/technology/image-space-capsule-landscape.jpg"
-        },
-        "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
-      }
-    ]
-  }
+      "role": "Engenheira de Voo",
+      "bio": "Anousheh Ansari é uma engenheira iraniana-americana e cofundadora da Prodea Systems. Ansari foi a quarta turista espacial a se autofinanciar, a primeira mulher a fazê-lo para a ISS e a primeira iraniana no espaço."
+    }
+  ],
+  "technology": [
+    {
+      "name": "Veículo de Lançamento",
+      "images": {
+        "portrait": "/assets/technology/image-launch-vehicle-portrait.jpg",
+        "landscape": "/assets/technology/image-launch-vehicle-landscape.jpg"
+      },
+      "description": "Um veículo de lançamento ou foguete transportador é um veículo movido a foguete usado para levar uma carga útil da superfície da Terra ao espaço, geralmente para a órbita terrestre ou além. Nosso foguete WEB-X é o mais poderoso em operação. Com 150 metros de altura, é uma visão impressionante na plataforma de lançamento!"
+    },
+    {
+      "name": "Porto Espacial",
+      "images": {
+        "portrait": "/assets/technology/image-spaceport-portrait.jpg",
+        "landscape": "/assets/technology/image-spaceport-landscape.jpg"
+      },
+      "description": "Um porto espacial ou cosmódromo é um local para lançar (ou receber) espaçonaves, por analogia com um porto para navios ou aeroporto para aeronaves. Baseado no famoso Cabo Canaveral, nosso porto espacial está idealmente situado para aproveitar a rotação da Terra para lançamentos."
+    },
+    {
+      "name": "Cápsula Espacial",
+      "images": {
+        "portrait": "/assets/technology/image-space-capsule-portrait.jpg",
+        "landscape": "/assets/technology/image-space-capsule-landscape.jpg"
+      },
+      "description": "Uma cápsula espacial é uma espaçonave muitas vezes tripulada que utiliza uma cápsula de reentrada de corpo rombudo para reentrar na atmosfera terrestre sem asas. Nossa cápsula é onde você passará seu tempo durante o voo. Inclui uma academia espacial, cinema e muitas outras atividades para mantê-lo entretido."
+    }
+  ]
+}
