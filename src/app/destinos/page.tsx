@@ -1,8 +1,16 @@
+"use client"
 import { Header } from "@/components/Header";
 import imagemLua from "@/../public/assets/destination/image-moon.png"
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Destinos() {
+
+    const [activatePlanet, setActivatePlanet] = useState(0);
+
+    const handlePlanetClick = (index: number) =>{
+        setActivatePlanet(index)
+    }
 
     const planetas = ["lua", "marte", "júpiter", "titan"]
 
@@ -26,9 +34,10 @@ export default function Destinos() {
                             {
                                 planetas.map((nomePlaneta, index) => (
                                     <li key={index}
-                                        className={`${index === 0 ? "text-white" : "text-[#D0D6F9] "}cursor-pointer`}
+                                        className={`cursor-pointer capitalize ${activatePlanet === index ? "text-white" : "text-[#D0D6F9] "} group`}
+                                        onClick = {() => handlePlanetClick(index)}
                                     >{nomePlaneta}
-                                        <span className={`block mt-1 w-full h-1 ${index === 0 && "bg-white"}`}></span>
+                                        <span className={`block mt-1 w-full h-1 ${activatePlanet === index ? "bg-white" : "group-hover:bg-gray-400"}`}></span>
                                     </li>
                                 ))
                             }
